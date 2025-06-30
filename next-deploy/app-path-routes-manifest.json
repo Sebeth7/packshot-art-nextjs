@@ -1,0 +1,10 @@
+{
+  "/favicon.ico/route": "/favicon.ico",
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/robots.txt/route": "/robots.txt",
+  "/_not-found/page": "/_not-found",
+  "/page": "/",
+  "/dashboard/page": "/dashboard",
+  "/da/[slug]/page": "/da/[slug]",
+  "/catalogue/page": "/catalogue"
+}
