@@ -17,11 +17,7 @@
   to = "/catalogue"
   status = 301
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-  conditions = {Role = ["admin"]}
+# Redirection SPA désactivée pour Next.js
 
 # Headers de sécurité
 [[headers]]
