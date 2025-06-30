@@ -39,8 +39,8 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* Concept Section - CONTENU EXACT */}
-      <section className="py-20 px-6" id="solution-hybride">
+      {/* Solution Hybride Section - DESIGN EXACT */}
+      <section className="py-24 px-6" id="solution-hybride" style={{ background: 'var(--blanc-premium)' }}>
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6" style={{ 
             fontFamily: 'var(--font-heading)', 
