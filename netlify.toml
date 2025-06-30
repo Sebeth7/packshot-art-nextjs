@@ -11,14 +11,6 @@
 [functions]
   included_files = [".env.local"]
 
-# Redirections pour SPA
-[[redirects]]
-  from = "/catalogue-v2.html"
-  to = "/catalogue"
-  status = 301
-
-# Redirection SPA désactivée pour Next.js
-
 # Headers de sécurité
 [[headers]]
   for = "/*"
