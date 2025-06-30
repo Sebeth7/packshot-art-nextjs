@@ -151,6 +151,93 @@ export default async function HomePage() {
         </section>
       )}
 
+      {/* Process Section */}
+      <section className="py-20 px-6" id="process">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-4" style={{ 
+              fontFamily: 'var(--font-heading)', 
+              color: 'var(--primary)' 
+            }}>
+              Notre processus en 4 étapes
+            </h2>
+            <p className="text-xl" style={{ color: 'var(--gris-chaud-600)' }}>
+              Simple, rapide et professionnel
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {/* Étape 1 */}
+            <div className="text-center">
+              <div className="w-16 h-16 mx-auto mb-6 rounded-full flex items-center justify-center text-2xl font-bold" 
+                   style={{ 
+                     background: 'linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%)',
+                     color: 'var(--blanc-pur)'
+                   }}>
+                01
+              </div>
+              <h3 className="text-xl font-semibold mb-3" style={{ color: 'var(--primary)' }}>
+                Sélection DA
+              </h3>
+              <p style={{ color: 'var(--gris-chaud-600)' }}>
+                Choisissez parmi nos 311 directions artistiques premium
+              </p>
+            </div>
+
+            {/* Étape 2 */}
+            <div className="text-center">
+              <div className="w-16 h-16 mx-auto mb-6 rounded-full flex items-center justify-center text-2xl font-bold" 
+                   style={{ 
+                     background: 'linear-gradient(135deg, var(--secondary) 0%, var(--teal) 100%)',
+                     color: 'var(--blanc-pur)'
+                   }}>
+                02
+              </div>
+              <h3 className="text-xl font-semibold mb-3" style={{ color: 'var(--primary)' }}>
+                Upload packshots
+              </h3>
+              <p style={{ color: 'var(--gris-chaud-600)' }}>
+                Interface sécurisée pour envoyer vos photos produits
+              </p>
+            </div>
+
+            {/* Étape 3 */}
+            <div className="text-center">
+              <div className="w-16 h-16 mx-auto mb-6 rounded-full flex items-center justify-center text-2xl font-bold" 
+                   style={{ 
+                     background: 'linear-gradient(135deg, var(--amber) 0%, var(--amber-light) 100%)',
+                     color: 'var(--blanc-pur)'
+                   }}>
+                03
+              </div>
+              <h3 className="text-xl font-semibold mb-3" style={{ color: 'var(--primary)' }}>
+                Assemblage expert
+              </h3>
+              <p style={{ color: 'var(--gris-chaud-600)' }}>
+                Nos retoucheurs assemblent avec précision IA + expertise manuelle
+              </p>
+            </div>
+
+            {/* Étape 4 */}
+            <div className="text-center">
+              <div className="w-16 h-16 mx-auto mb-6 rounded-full flex items-center justify-center text-2xl font-bold" 
+                   style={{ 
+                     background: 'linear-gradient(135deg, var(--teal) 0%, var(--secondary) 100%)',
+                     color: 'var(--blanc-pur)'
+                   }}>
+                04
+              </div>
+              <h3 className="text-xl font-semibold mb-3" style={{ color: 'var(--primary)' }}>
+                Livraison 72h
+              </h3>
+              <p style={{ color: 'var(--gris-chaud-600)' }}>
+                Réception de vos visuels transformés en qualité studio
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Stats Premium */}
       <section className="py-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
@@ -188,6 +275,102 @@ export default async function HomePage() {
                 Livraison express
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 px-6" id="faq" style={{ background: 'var(--gris-chaud-100)' }}>
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-4" style={{ 
+              fontFamily: 'var(--font-heading)', 
+              color: 'var(--primary)' 
+            }}>
+              Questions fréquentes
+            </h2>
+            <p className="text-xl" style={{ color: 'var(--gris-chaud-600)' }}>
+              Tout ce que vous devez savoir sur notre service
+            </p>
+          </div>
+          
+          <div className="space-y-4">
+            {/* FAQ Item 1 */}
+            <div style={{ 
+              background: 'var(--blanc-pur)', 
+              borderRadius: 'var(--radius)',
+              boxShadow: 'var(--shadow-subtile)'
+            }}>
+              <div className="p-6">
+                <h3 className="text-lg font-semibold mb-3" style={{ color: 'var(--primary)' }}>
+                  Les photos sont-elles vraiment indistinguables d'un vrai shooting ?
+                </h3>
+                <p style={{ color: 'var(--gris-chaud-600)' }}>
+                  Oui ! Notre combinaison IA + retouches manuelles expertes produit des visuels de qualité studio. 
+                  98% de nos clients ne peuvent distinguer nos créations des vrais shootings.
+                </p>
+              </div>
+            </div>
+
+            {/* FAQ Item 2 */}
+            <div style={{ 
+              background: 'var(--blanc-pur)', 
+              borderRadius: 'var(--radius)',
+              boxShadow: 'var(--shadow-subtile)'
+            }}>
+              <div className="p-6">
+                <h3 className="text-lg font-semibold mb-3" style={{ color: 'var(--primary)' }}>
+                  Comment fonctionne exactement le processus ?
+                </h3>
+                <p style={{ color: 'var(--gris-chaud-600)' }}>
+                  Vous choisissez une direction artistique, uploadez vos packshots sur fond blanc, 
+                  et nos experts assemblent le tout avec précision. Livraison en 48-72h maximum.
+                </p>
+              </div>
+            </div>
+
+            {/* FAQ Item 3 */}
+            <div style={{ 
+              background: 'var(--blanc-pur)', 
+              borderRadius: 'var(--radius)',
+              boxShadow: 'var(--shadow-subtile)'
+            }}>
+              <div className="p-6">
+                <h3 className="text-lg font-semibold mb-3" style={{ color: 'var(--primary)' }}>
+                  Puis-je tester plusieurs directions artistiques ?
+                </h3>
+                <p style={{ color: 'var(--gris-chaud-600)' }}>
+                  Absolument ! Nous offrons 1 photo premium ou 3 photos e-commerce pour vous permettre 
+                  de tester notre qualité avant de commander en série.
+                </p>
+              </div>
+            </div>
+
+            {/* FAQ Item 4 */}
+            <div style={{ 
+              background: 'var(--blanc-pur)', 
+              borderRadius: 'var(--radius)',
+              boxShadow: 'var(--shadow-subtile)'
+            }}>
+              <div className="p-6">
+                <h3 className="text-lg font-semibold mb-3" style={{ color: 'var(--primary)' }}>
+                  Quels types de produits acceptez-vous ?
+                </h3>
+                <p style={{ color: 'var(--gris-chaud-600)' }}>
+                  Joaillerie, lunetterie, horlogerie, maroquinerie, accessoires... Tout produit photographiable 
+                  sur fond blanc peut être transformé avec nos directions artistiques.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center mt-12">
+            <a href="/catalogue" className="btn-premium">
+              Découvrir nos directions artistiques
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M7 10h6m0 0l-3-3m3 3l-3 3" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+              </svg>
+            </a>
           </div>
         </div>
       </section>
