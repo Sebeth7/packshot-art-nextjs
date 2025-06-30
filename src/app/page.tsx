@@ -42,6 +42,17 @@ export default async function HomePage() {
       {/* Solution Hybride Section - DESIGN EXACT */}
       <section className="py-24 px-6" id="solution-hybride" style={{ background: 'var(--blanc-premium)' }}>
         <div className="max-w-6xl mx-auto text-center">
+          {/* Badge */}
+          <div className="mb-8">
+            <span className="inline-block px-8 py-3 rounded-full text-sm font-semibold uppercase tracking-wide" style={{
+              background: 'linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%)',
+              color: 'var(--blanc-pur)',
+              boxShadow: '0 6px 25px rgba(99, 102, 241, 0.3)'
+            }}>
+              Solution Hybride
+            </span>
+          </div>
+          
           <h2 className="text-4xl font-bold mb-6" style={{ 
             fontFamily: 'var(--font-heading)', 
             color: 'var(--primary)' 
@@ -97,12 +108,22 @@ export default async function HomePage() {
                 <span className="text-2xl">🔄</span>
               </div>
               <h3 className="font-semibold mb-2" style={{ color: 'var(--primary)' }}>
-                2 à 3 reviews possibles
+                2 à 3 reviews possibles pour le meilleur résultat
               </h3>
-              <p className="text-sm" style={{ color: 'var(--gris-chaud-600)' }}>
-                pour le meilleur résultat
-              </p>
             </div>
+          </div>
+          
+          {/* Note spécialisation */}
+          <div className="mt-16 mx-auto max-w-3xl p-8 text-center" style={{
+            background: 'linear-gradient(135deg, rgba(99, 102, 241, 0.05) 0%, rgba(20, 184, 166, 0.05) 100%)',
+            border: '1px solid rgba(99, 102, 241, 0.2)',
+            borderRadius: 'var(--radius)',
+            color: 'var(--gris-chaud-700)'
+          }}>
+            <p>
+              <strong style={{ color: 'var(--accent)' }}>Optimisé pour lunettes, bijoux, montres et maroquinerie premium</strong> — 
+              Notre IA comprend les spécificités de vos secteurs
+            </p>
           </div>
         </div>
       </section>
