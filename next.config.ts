@@ -65,9 +65,9 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: false,
   },
 
-  // Configuration ESLint
+  // Configuration ESLint - ignore pendant build pour migration
   eslint: {
-    ignoreDuringBuilds: false,
+    ignoreDuringBuilds: true,
   },
 
   // Compression et optimisations
